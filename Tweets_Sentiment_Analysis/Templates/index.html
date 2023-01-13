@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<style>
+form {
+    margin: auto;
+    width: 35%;
+}
+.result {
+    margin: auto;
+    width: 35%;
+    border: 1px solid #ccc;
+}
+</style>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Twitter Sentiment Analysis</title>
+</head>
+<form action="{{ url_for('index') }}" method="POST">
+    <fieldset>
+        <legend>Enter Mobile Review:</legend>
+        <label for="tweet">Review:</label>
+        <title>
+        <textarea name="tweet" rows="10" cols="80" required></textarea>
+        </title>
+        <br>
+        <input type="submit">
+    </fieldset>
+</form>
+<br>
+<div class="result" align="center">
+    {% if result == 0 %}
+        {% for variable, value in original_input.items() %}
+            <b>{{ variable }}</b> : {{ value }}
+        {% endfor %}
+        <br>
+        <br> 
+    
+    {% elif result == 1 %}
+        {% for variable, value in original_input.items() %}
+            <b>{{ variable }}</b> : {{ value }}
+        {% endfor %}
+        <br>
+        <br> 
+    {% endif %}
+</div>
+</html>
