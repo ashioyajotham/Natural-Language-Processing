@@ -16,16 +16,14 @@ form {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Twitter Sentiment Analysis</title>
 </head>
+
+
 <form action="{{ url_for('index') }}" method="POST">
-    <fieldset>
-        <legend>Enter Mobile Review:</legend>
-        <label for="tweet">Review:</label>
-        <title>
-        <textarea name="tweet" rows="10" cols="80" required></textarea>
-        </title>
-        <br>
-        <input type="submit">
-    </fieldset>
+    <legend>Enter Mobile Review:</legend>
+    <label for="tweet">Enter Tweet:</label><br>
+    <textarea class='message-box' name="message" rows="15" cols="75" placeholder="Enter Your Message Here... (ex: This is a bad electronic)"></textarea><br/>
+    <input type="text" id="tweet" name="tweet"><br>
+    <input type="submit">
 </form>
 <br>
 <div class="result" align="center">

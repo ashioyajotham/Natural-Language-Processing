@@ -98,10 +98,13 @@ def index():
         final_text = vectorizer.transform(final_text)
 
 
-
-        prediction = model.predict(final_text)
         
-        return flask.render_template('index.html', result=prediction, original_input={'Mobile Review':tweet})
+        prediction = model.predict_proba(final_text)
+
+        positive = round(prediction[0][0] * 100)
+        negative = round(prediction[0][1] * 100)
+        
+        return flask.render_template('index.html', result=prediction, original_input={'Mobile Review':tweet}, rating1=positive, rating2=negative)
 
 
 
