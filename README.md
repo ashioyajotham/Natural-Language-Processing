@@ -24,4 +24,4 @@
 
 * [Kaggle](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
-* This project was inspired by [Jatin](https://www.youtube.com/watch?v=QIUxPv5PJOY)
+* This project was inspired by [Jatin](https://www.datascience2000.in/2021/06/how-to-deploy-nlp-model-using-flask-on.html)
