@@ -1,0 +1,2 @@
+# add env file.
+ENV_FILE = .env
