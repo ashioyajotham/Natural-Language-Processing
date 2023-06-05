@@ -18,6 +18,7 @@ This repository contains the code for the Natural Language Processing (NLP) proj
     * [RASA](https://en.wikipedia.org/wiki/Rasa_(software))
     * [NLTK](https://en.wikipedia.org/wiki/Natural_Language_Toolkit)
 
+
 ## [BERT (Bidirectional Transformer)](https://github.com/google-research/bert)
 * `BERT` refers to a method of pre-training language representations, meaning that we train a general-purpose "language understanding" model on a large text corpus (like Wikipedia), and then use that model for downstream NLP tasks that we care about (like question answering). BERT outperforms previous methods because it is the first unsupervised, deeply bidirectional system for pre-training NLP.
 * It was introduced through the paper [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) in 2018 by Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova
@@ -34,8 +35,7 @@ This repository contains the code for the Natural Language Processing (NLP) proj
   * Your own custom conversational channels with the open source SDK combining other chatbots like ChatGPT
 * It was introduced through the paper [Rasa: Open source language understanding and dialogue management](https://arxiv.org/abs/1712.05181) in 2017 by Tom Bocklisch, Philipp Blandfort, Tobias Brox, Nick Pawlowski, Alan Nichol, Mete Sertkan, Johannes Mosig and Alan Telešič
 
-## [GPT (Generative Pre-trained Transformer)](
-     https://github.com/openai/gpt-2)
+## [GPT (Generative Pre-trained Transformer)](https://github.com/openai/gpt-2)
 * `GPT` is a large-scale transformer-based language model with 175 billion parameters. GPT-2 is a scaled version of this model with 1.5 billion parameters.
 * It was introduced through the paper [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) in 2019 by Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei and Ilya Sutskever
 
@@ -45,7 +45,7 @@ This repository contains the code for the Natural Language Processing (NLP) proj
 
 
 ### Future Work
-* Transformers & LLMs 
+* 1) Transformers & LLMs 
 - This will focus on what 2017 NLP researchers have called "Transformer" models, which are a class of models that leverage the attention mechanism.
 - These models are based on the Transformer architecture, which uses a stack of self-attention layers to draw global dependencies between input and output.
 - The Transformer architecture is the basis for many of the most recent NLP models, including BERT, GPT-2, XLNet, and T5.
