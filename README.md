@@ -45,7 +45,7 @@ This repository contains the code for the Natural Language Processing (NLP) proj
 
 
 ### Future Work
-* 1) Transformers & LLMs 
+1) Transformers & LLMs 
 - This will focus on what 2017 NLP researchers have called "Transformer" models, which are a class of models that leverage the attention mechanism.
 - These models are based on the Transformer architecture, which uses a stack of self-attention layers to draw global dependencies between input and output.
 - The Transformer architecture is the basis for many of the most recent NLP models, including BERT, GPT-2, XLNet, and T5.
