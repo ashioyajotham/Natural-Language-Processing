@@ -1,2 +1,2 @@
-# add env file.
-ENV_FILE = .env
+# add env file
+.env

@@ -8,13 +8,16 @@ import webbrowser
 import os
 import openai
 
-# set fine tune mode to true
-#os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+from dotenv import load_dotenv
+import requests
+import os
+
+load_dotenv()
 
 # Action to pull the latest news from the web
 class NewsAPI(object):
     def __init__(self):
-        self.url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=0507baefb2804289a7b5e934fad99557'
+        self.url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey={}'.format(os.getenv("NEWS_API_KEY"))
 
         self.data = requests.get(self.url).json()
         self.articles = self.data['articles']
@@ -58,13 +61,9 @@ class ActionOwnerName(Action):
 
 
 # Chatgpt -->
-from dotenv import load_dotenv
-import requests
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.Engine.list()
 
 class ChatGPT(object):
 
