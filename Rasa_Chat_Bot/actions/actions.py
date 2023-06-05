@@ -147,3 +147,11 @@ class ActionDefaultFallback(Action):
     ) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("Sorry, I don't understand. Please try again.")
         return []
+    
+# To add the api keys to the environment variables file follow the steps below:
+# 1. Create a file called .env in the root directory of the project
+# 2. Add the api keys to the .env file in the format: API_KEY=your_api_key
+# 3. Add the .env file to the .gitignore file ie
+#    echo .env >> .gitignore
+# 4. Install the python-dotenv package
+#    pip install python-dotenv
