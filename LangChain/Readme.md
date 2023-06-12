@@ -6,4 +6,4 @@
  - Bring your own data
  
 
-[CC](https://haihai/gpt-drive/)
+[CC: Greg Bauges](https://haihai/gpt-drive/)
