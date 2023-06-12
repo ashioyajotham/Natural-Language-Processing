@@ -15,7 +15,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-#os.environ["OPENAI_API_KEY"] = "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"
 
 llm =  OpenAI(temperature=.1, verbose=True)
 loader = PyPDFLoader('apple.pdf')
