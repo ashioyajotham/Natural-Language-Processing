@@ -19,7 +19,7 @@ loader = GoogleDriveLoader(folder_id = folder_id,
 docs = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size=4000, chunk_overlap=0, separators=[" ", ",", "\n"]
+    chunk_size=4000, chunk_overlap=20, separators=[" ", ",", "\n"]
 )
 
 texts = text_splitter.split_documents(docs)
@@ -27,7 +27,7 @@ texts = text_splitter.split_documents(docs)
 
 #persist_directory = "gpt_drive"
 #metadata = {"folder_id": folder_id}
-db = Chroma.from_documents(texts, embedding=OpenAIEmbeddings(model="davinci"), collection_name='annualreports')
+db = Chroma.from_documents(texts, embedding=OpenAIEmbeddings(model="text-embedding-ada-002"), collection_name='annualreports')
 # collection_name helps you identify the vector store and is used by the RetrievalQA class
 retriever = db.as_retriever()
 
@@ -38,10 +38,3 @@ while True:
     question = input("> ")
     answer = qa.run(question)
     print(answer)
-
-# how to increase context window size
-# 1. increase the chunk size
-# 2. increase the overlap size
-# 3. increase the number of chunks
-# 4. increase the number of documents
-# 5. increase the number of documents per chunk
