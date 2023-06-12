@@ -6,6 +6,10 @@ from langchain.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 folder_id = '1K7qXSMy_SKkug3ZX5DN-2dkkrKPUkPH8'
@@ -19,11 +23,12 @@ text_splitter = RecursiveCharacterTextSplitter(
 )
 
 texts = text_splitter.split_documents(docs)
-embeddings = OpenAIEmbeddings(model="davinci")
+#embeddings = OpenAIEmbeddings(model="davinci")
 
 #persist_directory = "gpt_drive"
 #metadata = {"folder_id": folder_id}
-db = Chroma.from_documents(texts, embedding=embeddings, collection_name="apple", metadata=None)
+db = Chroma.from_documents(texts, embedding=OpenAIEmbeddings(model="davinci"), 
+                           collection_name="apple", metadata=None)
 retriever = db.as_retriever()
 
 llm = ChatOpenAI(temperature=0, model_name="davinci")
