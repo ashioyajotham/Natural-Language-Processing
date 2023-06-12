@@ -5,7 +5,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-folder_id = ''
+folder_id = '1K7qXSMy_SKkug3ZX5DN-2dkkrKPUkPH8'
 loader = GoogleDriveLoader(folder_id, recursive=False)
 
 docs = loader.load()
