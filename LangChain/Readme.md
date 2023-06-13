@@ -11,6 +11,7 @@
 * [CC: Greg Bauges](https://www.haihai.ai/gpt-gdrive/)
 
 * [CC: PyQuant News](https://pyquantnews.com/build-gpt-investment-advisor-reads-financials/)
+* [yvann-hub](https://github.com/yvann-hub/Robby-chatbot)
 
 
 
