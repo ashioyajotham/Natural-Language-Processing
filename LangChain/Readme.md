@@ -15,8 +15,7 @@
 
 
 ***** Further Reading *****
-* [LangChain](
-     https://github.com/harrison-chase/LangChain)
+* [LangChain](https://github.com/hwchase17/langchain/)
      
      
 
