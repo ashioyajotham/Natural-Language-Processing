@@ -45,7 +45,8 @@ This repository contains the code for the Natural Language Processing (NLP) proj
 
 ## [Langchain](https://github.com/ashioyajotham/Natural-Language-Processing/tree/main/LangChain#langchain)
 * An open source framework for building LLM-powered apps.
-(![Sample 1: Interaction of chatgpt + gdrive + langchain](image.png))
+![Sample 1: Interaction of chatgpt + gdrive + langchain](image.png)
+![Sample 2: Interaction of chatgpt + gdrive + langchain](image2.png)
 
 ### Future Work
 1) Transformers & LLMs 
