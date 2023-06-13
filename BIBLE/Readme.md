@@ -4,4 +4,4 @@
   * Chat with LLM and LangChain to query every famous story, miracles, specific verse
 
 ************************ ACKNOWLEDGEMENTS ************************
-* [Many thanks to Nelisiwe Gama for the OG script](https://github.com/NelisiweGama/scraping/blob/master/scraping.ipynb)
+* [Many thanks to Nelisiwe Gama for the OG scraping script](https://github.com/NelisiweGama/scraping/blob/master/scraping.ipynb)
