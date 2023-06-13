@@ -4,6 +4,14 @@
 * Ways to utilize it:
  - LLM app to take action
  - Bring your own data
- 
 
+
+****** Acknowledgements ******
 [CC: Greg Bauges](https://www.haihai.ai/gpt-gdrive/)
+[CC: PyQuant News](https://pyquantnews.com/build-gpt-investment-advisor-reads-financials/)
+
+***** Further Reading *****
+* [LangChain](
+     https://github.com/harrison-chase/LangChain)
+* [GPT-GDrive](
+     https://github.com/harrison-chase/GPT-GDrive)

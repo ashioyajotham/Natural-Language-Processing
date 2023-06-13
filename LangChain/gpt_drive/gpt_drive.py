@@ -27,7 +27,7 @@ texts = text_splitter.split_documents(docs)
 
 #persist_directory = "gpt_drive"
 #metadata = {"folder_id": folder_id}
-db = Chroma.from_documents(texts, embedding=OpenAIEmbeddings(model="text-embedding-ada-002"), collection_name='annualreports')
+db = Chroma.from_documents(texts, embedding=OpenAIEmbeddings(model="davinci"), collection_name='annualreports')
 # collection_name helps you identify the vector store and is used by the RetrievalQA class
 retriever = db.as_retriever()
 
