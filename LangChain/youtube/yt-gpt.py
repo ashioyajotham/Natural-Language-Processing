@@ -20,4 +20,4 @@ splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 sentences = splitter.split_documents(text)
 
 # load language model
-model_repo = 
+model_repo = 'https://huggingface.co/h2oai/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2'
