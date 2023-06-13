@@ -43,6 +43,9 @@ This repository contains the code for the Natural Language Processing (NLP) proj
 * `NLTK` is a leading platform for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries.
 * It was introduced through the paper [NLTK: the natural language toolkit](https://www.aclweb.org/anthology/J03-4003.pdf) in 2004 by Steven Bird, Edward Loper and Ewan Klein
 
+## [Langchain](https://github.com/ashioyajotham/Natural-Language-Processing/tree/main/LangChain#langchain)
+* An open source framework for building LLM-powered apps.
+
 
 ### Future Work
 1) Transformers & LLMs 
