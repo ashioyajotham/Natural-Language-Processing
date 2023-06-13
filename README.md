@@ -47,7 +47,7 @@ This repository contains the code for the Natural Language Processing (NLP) proj
 * An open source framework for building LLM-powered apps.
 ![Sample 1: Interaction of chatgpt + gdrive + langchain](image.png)
 
-![Sample 2: Interaction of chatgpt + gdrive + langchain](image2.png)
+![Sample 2: Interaction of chatgpt + gdrive + langchain](image2.jpeg)
 
 ### Future Work
 1) Transformers & LLMs 
