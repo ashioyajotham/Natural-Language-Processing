@@ -1,4 +1,4 @@
-from Ipython.display import YouTubeVideo
+from IPython.display import YouTubeVideo
 
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from langchain.document_loaders import YoutubeLoader
@@ -20,4 +20,51 @@ splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 sentences = splitter.split_documents(text)
 
 # load language model
-model_repo = 'https://huggingface.co/h2oai/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2'
+model_repo = 'h2oai/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2'
+tokenizer = AutoTokenizer.from_pretrained(model_repo)
+model = AutoModelForCausalLM.from_pretrained(model_repo,
+                                                load_in_8bit=True,
+                                                device_map='auto',
+                                                torch_dtype=torch.float16,
+                                                low_cpu_mem_usage=True,
+                                                trust_remote_code=True)
+
+max_len = 2048
+task = 'text-generation'
+T = 0
+
+# create pipeline
+pipe = pipeline(
+    task = task,
+    model = model,
+    tokenizer = tokenizer,
+    max_length = max_len,
+    temperature = T,
+    top_p = .95,
+    repetition_penalty = 1.2,
+    pad_token_id = 11
+)
+
+llm = HuggingFacePipeline(pipeline=pipe)
+
+
+chain = load_summarize_chain(llm=llm, chain_type="map_reduce", verbose=True)
+
+# default prompt template
+chain.llm_chain.prompt.template
+
+summary = chain.run(text)
+
+
+# custom prompt template
+chain2 = load_summarize_chain(llm=llm, chain_type="map_reduce", verbose=False)
+
+# change the prompt template
+chain2.llm_chain.prompt.template = \
+"""Write a three paragraph summary of the following text:
+"{input_text}"
+3 PARAGRAPH SUMMARY:"""
+
+summary = chain2.run(text)
+
+len(summary)
