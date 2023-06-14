@@ -1,6 +1,4 @@
-pip install git+https://github.com/facebookresearch/audiocraft.git
-
-  import torchaudio
+import torchaudio
 
 from audiocraft.models import MusicGen
 from audiocraft.data.audio import audio_write
@@ -15,3 +13,5 @@ wav = model.generate(descriptions)  # generates 3 samples.
 for idx, one_wav in enumerate(wav):
     # Will save under {idx}.wav, with loudness normalization at -14 db LUFS.
     audio_write(f'{idx}', one_wav.cpu(), model.sample_rate, strategy="loudness")
+
+
