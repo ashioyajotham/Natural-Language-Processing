@@ -17,9 +17,16 @@ This repository contains the code for the Natural Language Processing (NLP) proj
     * [GPT](https://en.wikipedia.org/wiki/OpenAI_GPT)
     * [RASA](https://en.wikipedia.org/wiki/Rasa_(software))
     * [NLTK](https://en.wikipedia.org/wiki/Natural_Language_Toolkit)
-git clone https://huggingface.co/spaces/ashioyajotham/DocReader
 
 ## What are transformers?
+* `Transformers` are a type of neural network architecture that allow for parallelization across the sequence. This means that the network can process all of the tokens in the sequence at the same time, rather than having to process them sequentially. This is a huge advantage over RNNs, which must process tokens sequentially.
+* It was introduced through the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) in 2017 by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser and Illia Polosukhin
+* Below is a diagram of the Transformer architecture:
+![Transformer Architecture](
+  https://miro.medium.com/max/1400/1*9gBC9o9X-pQZ-2-6k6xViw.png
+)
+* The Transformer architecture has been used in a variety of tasks, including machine
+translation, text summarization, and image captioning.
 * Sebastian Ratchka sums it well [here](https://www.linkedin.com/posts/sebastianraschka_ai-llm-transformers-activity-7074387165543092224-tlX-?utm_source=share&utm_medium=member_desktop)
 
 
