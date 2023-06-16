@@ -20,7 +20,7 @@ This repository contains the code for the Natural Language Processing (NLP) proj
 git clone https://huggingface.co/spaces/ashioyajotham/DocReader
 
 ## What are transformers?
-* Sebastian Ratchka sums it well (here)[https://www.linkedin.com/posts/sebastianraschka_ai-llm-transformers-activity-7074387165543092224-tlX-?utm_source=share&utm_medium=member_desktop)
+* Sebastian Ratchka sums it well [here](https://www.linkedin.com/posts/sebastianraschka_ai-llm-transformers-activity-7074387165543092224-tlX-?utm_source=share&utm_medium=member_desktop)
 
 
 ## [BERT (Bidirectional Transformer)](https://github.com/google-research/bert)
