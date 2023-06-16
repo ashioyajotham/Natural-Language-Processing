@@ -19,6 +19,9 @@ This repository contains the code for the Natural Language Processing (NLP) proj
     * [NLTK](https://en.wikipedia.org/wiki/Natural_Language_Toolkit)
 git clone https://huggingface.co/spaces/ashioyajotham/DocReader
 
+## What are transformers?
+* Sebastian Ratchka sums it well [https://www.linkedin.com/posts/sebastianraschka_ai-llm-transformers-activity-7074387165543092224-tlX-?utm_source=share&utm_medium=member_desktop)
+
 
 ## [BERT (Bidirectional Transformer)](https://github.com/google-research/bert)
 * `BERT` refers to a method of pre-training language representations, meaning that we train a general-purpose "language understanding" model on a large text corpus (like Wikipedia), and then use that model for downstream NLP tasks that we care about (like question answering). BERT outperforms previous methods because it is the first unsupervised, deeply bidirectional system for pre-training NLP.
