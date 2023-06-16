@@ -17,6 +17,7 @@ This repository contains the code for the Natural Language Processing (NLP) proj
     * [GPT](https://en.wikipedia.org/wiki/OpenAI_GPT)
     * [RASA](https://en.wikipedia.org/wiki/Rasa_(software))
     * [NLTK](https://en.wikipedia.org/wiki/Natural_Language_Toolkit)
+git clone https://huggingface.co/spaces/ashioyajotham/DocReader
 
 
 ## [BERT (Bidirectional Transformer)](https://github.com/google-research/bert)
