@@ -60,6 +60,14 @@ translation, text summarization, and image captioning.
 
 ![Sample 2: Interaction of chatgpt + gdrive + langchain](image2.jpeg)
 
+
+## [Imitation Learning in LLMs](https://arxiv.org/abs/2306.02707)
+* A look at Orca and other open source LLMs.
+* _Can large language models (LLMs) train themselves?_
+Credits: [Cameron Wolfe](https://cameronrwolfe.substack.com/p/orca-properly-imitating-proprietary) found through this [twitter thread](https://twitter.com/cwolferesearch/status/1673398297304911872)
+
+
+
 ### Future Work
 1) Transformers & LLMs 
 - This will focus on what 2017 NLP researchers have called "Transformer" models, which are a class of models that leverage the attention mechanism.
