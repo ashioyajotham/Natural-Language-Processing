@@ -15,3 +15,9 @@ for idx, one_wav in enumerate(wav):
     audio_write(f'{idx}', one_wav.cpu(), model.sample_rate, strategy="loudness")
 
 
+
+baseten.login(os.environ["MY_BASETEN_API_KEY"])
+
+
+
+wtk8oz18.CLm4HWr15FGcbgRjXtl3mLtowHNrnUDF
