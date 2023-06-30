@@ -16,8 +16,3 @@ for idx, one_wav in enumerate(wav):
 
 
 
-baseten.login(os.environ["MY_BASETEN_API_KEY"])
-
-
-
-wtk8oz18.CLm4HWr15FGcbgRjXtl3mLtowHNrnUDF
