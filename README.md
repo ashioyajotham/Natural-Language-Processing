@@ -61,6 +61,10 @@ translation, text summarization, and image captioning.
 ![Sample 2: Interaction of chatgpt + gdrive + langchain](image2.jpeg)
 
 
+## [Music Generation](https://github.com/facebookresearch/audiocraft)
+* The concept is introduced in the paper [Simple and Controllable Music Generation](https://arxiv.org/abs/2306.05284) by a team of researchers from Meta, Facebook AI Research, and New York University.
+* The paper introduces a new method for music generation that is simple, controllable, and capable of producing music of unprecedented complexity and quality.
+
 ## [Imitation Learning in LLMs](https://arxiv.org/abs/2306.02707)
 * A look at Orca and other open source LLMs.
 * _Can large language models (LLMs) train themselves?_
