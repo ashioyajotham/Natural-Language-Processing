@@ -1,22 +1,5 @@
 # Natural-Language-Processing
-This repository contains the code for the Natural Language Processing (NLP) projects. The projects are implemented using Python and its libraries such as NLTK, Spacy, Gensim, Scikit-learn, Tensorflow, Keras, Pytorch, BERT, RASA, GPT, etc. The projects are implemented using the following datasets:
-* [IMDB Movie Reviews](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
-* [SMS Spam Collection](https://www.kaggle.com/uciml/sms-spam-collection-dataset)
-* [Fake News](https://www.kaggle.com/c/fake-news/data)
-
-* The projects are implemented using the following algorithms:
-  * [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
-  * [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
-  * [Support Vector Machine](https://en.wikipedia.org/wiki/Support-vector_machine)
-  * [Decision Tree](https://en.wikipedia.org/wiki/Decision_tree)
-  
-* The projects are implemented using the following models:
-    * [Word2Vec](https://en.wikipedia.org/wiki/Word2vec)
-    * [Doc2Vec](https://en.wikipedia.org/wiki/Doc2vec)
-    * [BERT](https://en.wikipedia.org/wiki/BERT_(language_model))
-    * [GPT](https://en.wikipedia.org/wiki/OpenAI_GPT)
-    * [RASA](https://en.wikipedia.org/wiki/Rasa_(software))
-    * [NLTK](https://en.wikipedia.org/wiki/Natural_Language_Toolkit)
+Welcome to my Natural Language Processing (NLP) diary ^_^. 
 
 ## What are transformers?
 * `Transformers` are a type of neural network architecture that allow for parallelization across the sequence. This means that the network can process all of the tokens in the sequence at the same time, rather than having to process them sequentially. This is a huge advantage over RNNs, which must process tokens sequentially.
@@ -49,10 +32,6 @@ translation, text summarization, and image captioning.
 ## [GPT (Generative Pre-trained Transformer)](https://github.com/openai/gpt-2)
 * `GPT` is a large-scale transformer-based language model with 175 billion parameters. GPT-2 is a scaled version of this model with 1.5 billion parameters.
 * It was introduced through the paper [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) in 2019 by Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei and Ilya Sutskever
-
-## NLTK (Natural Language Toolkit)
-* `NLTK` is a leading platform for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries.
-* It was introduced through the paper [NLTK: the natural language toolkit](https://www.aclweb.org/anthology/J03-4003.pdf) in 2004 by Steven Bird, Edward Loper and Ewan Klein
 
 ## [Langchain](https://github.com/ashioyajotham/Natural-Language-Processing/tree/main/LangChain#langchain)
 * An open source framework for building LLM-powered apps.
