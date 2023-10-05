@@ -13,20 +13,6 @@ translation, text summarization, and image captioning.
 * Sebastian Ratchka sums it well [here](https://www.linkedin.com/posts/sebastianraschka_ai-llm-transformers-activity-7074387165543092224-tlX-?utm_source=share&utm_medium=member_desktop)
 
 
-## RASA (Open Source Conversational AI)
-* `RASA` is an open source machine learning framework to automate text-and voice-based conversations. With Rasa, you can build chatbots on:
-  * Facebook Messenger
-  * Slack
-  * Microsoft Bot Framework
-  * Rocket.Chat
-  * Mattermost
-  * Telegram
-  * Twilio
-  * Your own custom conversational channels with the open source SDK combining other chatbots like ChatGPT
-* It was introduced through the paper [Rasa: Open source language understanding and dialogue management](https://arxiv.org/abs/1712.05181) in 2017 by Tom Bocklisch, Philipp Blandfort, Tobias Brox, Nick Pawlowski, Alan Nichol, Mete Sertkan, Johannes Mosig and Alan Telešič
-
-
-
 ****************
 Fave paper so far:
 ***************
@@ -38,7 +24,7 @@ Credits: [Cameron Wolfe](https://cameronrwolfe.substack.com/p/orca-properly-imit
 
 
 ### Future Work
-1) Transformers & LLMs 
+1) Transformers & LLMs Applications
 - This will focus on what 2017 NLP researchers have called "Transformer" models, which are a class of models that leverage the attention mechanism.
 - These models are based on the Transformer architecture, which uses a stack of self-attention layers to draw global dependencies between input and output.
 - The Transformer architecture is the basis for many of the most recent NLP models, including BERT, GPT-2, XLNet, and T5.
