@@ -1,6 +1,6 @@
 Before anything, big s/o to this [article by Akshit Mehra on LABELLERR](https://www.labellerr.com/blog/hands-on-with-fine-tuning-llm/)
 
-* `Finetuning` basically is training a general purpose LLM to a specific task LLM eg medicine, finance, code assistant etc. to help with specific domain questions and comprehend medical terminology and abbreviations.
+* `Finetuning` basically is adapting a general purpose LLM to a specific task LLM eg medicine, finance, code assistant etc. to help with specific domain questions and comprehend medical terminology and abbreviations.
 * It is similar to `transfer learning`; whereby the linguistic patterns and representations acquired by LLM during its initial training are transferred to your current task. Subsequently, it undergoes training using data relevant to your specific task, refining the parameters to be more aligned with the task's requirements.
  You also have the flexibility to adjust the model's architecture and modify its layers to suit your specific needs.
 
