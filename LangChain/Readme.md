@@ -29,6 +29,10 @@
 * `python main.py` (where main.py is the name of your file)
 
 
+![Sample 1: Interaction of chatgpt + gdrive + langchain](image.png)
+
+![Sample 2: Interaction of chatgpt + gdrive + langchain](image2.jpeg)
+
 ****************** Future Work *********************
 * (`Chat with email + gpt + gdrive`)[https://twitter.com/OfficialLoganK/status/1660328669112352772?s=20]
 * `Build a full stack application with gradio, streamlit, or flask`
