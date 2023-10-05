@@ -26,10 +26,10 @@ translation, text summarization, and image captioning.
 * It was introduced through the paper [Rasa: Open source language understanding and dialogue management](https://arxiv.org/abs/1712.05181) in 2017 by Tom Bocklisch, Philipp Blandfort, Tobias Brox, Nick Pawlowski, Alan Nichol, Mete Sertkan, Johannes Mosig and Alan Telešič
 
 
-## [Music Generation](https://github.com/facebookresearch/audiocraft)
-* The concept is introduced in the paper [Simple and Controllable Music Generation](https://arxiv.org/abs/2306.05284) by a team of researchers from Meta, Facebook AI Research, and New York University.
-* The paper introduces a new method for music generation that is simple, controllable, and capable of producing music of unprecedented complexity and quality.
 
+****************
+Fave paper so far:
+***************
 ## [Imitation Learning in LLMs](https://arxiv.org/abs/2306.02707)
 * A look at Orca and other open source LLMs.
 * _Can large language models (LLMs) train themselves?_
