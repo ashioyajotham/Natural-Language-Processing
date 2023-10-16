@@ -6,7 +6,7 @@ Welcome to my Natural Language Processing (NLP) diary ^_^.
 * It was introduced through the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) in 2017 which can be found in the Proceedings of the 31st International Conference on Neural Information Processing Systems (NIPS 2017). by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser and Illia Polosukhin
 * Below is a diagram of the Transformer architecture:
 ![Transformer Architecture](
-  https://miro.medium.com/max/1400/1*9gBC9o9X-pQZ-2-6k6xViw.png
+https://machinelearningmastery.com/wp-content/uploads/2021/08/attention_research_1.png
 )
 * The Transformer architecture has been used in a variety of tasks, including machine
 translation, text summarization, and image captioning.
