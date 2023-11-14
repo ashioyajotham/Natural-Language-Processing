@@ -28,3 +28,4 @@ Credits: [Cameron Wolfe](https://cameronrwolfe.substack.com/p/orca-properly-imit
 - This will focus on what 2017 NLP researchers have called "Transformer" models, which are a class of models that leverage the attention mechanism.
 - These models are based on the Transformer architecture, which uses a stack of self-attention layers to draw global dependencies between input and output.
 - The Transformer architecture is the basis for many of the most recent NLP models, including BERT, GPT-2, XLNet, and T5.
+- [A closer look at RLHF](https://twitter.com/cwolferesearch/status/1724486576992886985)
