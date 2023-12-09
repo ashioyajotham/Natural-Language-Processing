@@ -1,4 +1,1 @@
-# ignore .env by typing .env in .gitignore
-# create .env file in root directory
-# add .env file to .gitignore
-.env   # ignore .env by typing .env in .gitignore
+.env
