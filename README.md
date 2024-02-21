@@ -20,10 +20,12 @@ Fave paper so far:
 Credits: [Cameron Wolfe](https://cameronrwolfe.substack.com/p/orca-properly-imitating-proprietary) found through this [twitter thread](https://twitter.com/cwolferesearch/status/1673398297304911872)
 
 
-
-### Future Work
-1) AI Alignment
+### Research focus
+1) Alignment
 - [A closer look at RLHF](https://twitter.com/cwolferesearch/status/1724486576992886985)
-2) Red teaming
-3) Hallucination reduction
-4) Finetuning
+2) AI Safety (particularly interested in red-teaming)
+3) "Hallucination problem"
+  - [My latest thought](https://www.lesswrong.com/posts/FqYyJ9Gxf6GkQQ9SE/examining-the-boundary-between-imagination-and-hallucination)
+4) Finetuning v RAG
+
+
