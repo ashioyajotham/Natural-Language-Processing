@@ -15,11 +15,15 @@ https://machinelearningmastery.com/wp-content/uploads/2021/08/attention_research
 Fave paper so far:
 ***************
 ## [Exploiting Novel GPT-4 APIs](https://arxiv.org/abs/2306.02707)
+
+****************
+Previously favourite:
+*****************
 * A look at Orca and other open source LLMs.
 * _Can large language models (LLMs) train themselves?_
 Credits: [Cameron Wolfe](https://cameronrwolfe.substack.com/p/orca-properly-imitating-proprietary) found through this [twitter thread](https://twitter.com/cwolferesearch/status/1673398297304911872)
 
-
+**************************
 ### Research focus
 1) Alignment
 - [A closer look at RLHF](https://twitter.com/cwolferesearch/status/1724486576992886985)
