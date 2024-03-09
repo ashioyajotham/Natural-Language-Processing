@@ -14,7 +14,7 @@ https://machinelearningmastery.com/wp-content/uploads/2021/08/attention_research
 ****************
 Fave paper so far:
 ***************
-## [Exploiting Novel GPT-4 APIs](https://arxiv.org/abs/2306.02707)
+## [Exploiting Novel GPT-4 APIs](https://arxiv.org/abs/2312.14302)
 
 ****************
 Previously favourite:
