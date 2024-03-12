@@ -14,12 +14,15 @@ https://machinelearningmastery.com/wp-content/uploads/2021/08/attention_research
 ****************
 Fave paper so far:
 ***************
-## [Exploiting Novel GPT-4 APIs](https://arxiv.org/abs/2306.02707)
+## [Are Emergent Abilities of Large Language Models a Mirage?](https://arxiv.org/abs/2304.15004)
+*  This paper presents a compelling case that purported emergent abilities in LLMs are highly dependent on the metrics employed, challenging the community to reassess the foundational understanding of how LLMs evolve with scale.
 
 ****************
 Previously favourite:
 *****************
-* A look at Orca and other open source LLMs.
+1. [Exploiting Novel GPT-4 APIs](https://arxiv.org/abs/2312.14302)
+
+2. [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/pdf/2306.02707)
 * _Can large language models (LLMs) train themselves?_
 Credits: [Cameron Wolfe](https://cameronrwolfe.substack.com/p/orca-properly-imitating-proprietary) found through this [twitter thread](https://twitter.com/cwolferesearch/status/1673398297304911872)
 
