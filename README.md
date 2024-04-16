@@ -33,6 +33,6 @@ Credits: [Cameron Wolfe](https://cameronrwolfe.substack.com/p/orca-properly-imit
 2) AI Safety (particularly interested in red-teaming)
 3) "Hallucination problem"
   - [Lately I have been thinking about the intersection between alignment and hallucinations](https://www.lesswrong.com/posts/FqYyJ9Gxf6GkQQ9SE/examining-the-boundary-between-imagination-and-hallucination)
-4) Finetuning v RAG
+4) Interpretability
 
 
