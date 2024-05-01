@@ -18,8 +18,7 @@ Fave paper so far:
 *  This paper presents a compelling case that purported emergent abilities in LLMs are highly dependent on the metrics employed, challenging the community to reassess the foundational understanding of how LLMs evolve with scale.
 
 ****************
-Previously favourite:
-*****************
+First favourites in research*****************
 1. [Exploiting Novel GPT-4 APIs](https://arxiv.org/abs/2312.14302)
 
 2. [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/pdf/2306.02707)
@@ -32,7 +31,7 @@ Credits: [Cameron Wolfe](https://cameronrwolfe.substack.com/p/orca-properly-imit
 - [A closer look at RLHF](https://twitter.com/cwolferesearch/status/1724486576992886985)
 2) AI Safety (particularly interested in red-teaming)
 3) "Hallucination" problem
-  - [Lately I have been thinking about the intersection between alignment and hallucinations](https://www.lesswrong.com/posts/FqYyJ9Gxf6GkQQ9SE/examining-the-boundary-between-imagination-and-hallucination)
+  - [Lately I have been thinking about the intersection between imagination and "hallucinations" in humans and machines respectively](https://ashioyajotham.substack.com/p/hallucinations-in-large-language)
 4) Interpretability
 
 
