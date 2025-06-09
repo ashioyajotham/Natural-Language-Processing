@@ -1,1 +1,0 @@
-dbdd didbdh pow
