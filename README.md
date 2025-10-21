@@ -1,37 +1,52 @@
-# Natural-Language-Processing
-Welcome to my Natural Language Processing (NLP) diary ^_^. 
 
-## What are transformers?
-* `Transformers` are a type of neural network architecture that allow for parallelization across the sequence. This means that the network can process all of the tokens in the sequence at the same time, rather than having to process them sequentially. This is a huge advantage over RNNs, which must process tokens sequentially.
-* It was introduced through the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) in 2017 which can be found in the Proceedings of the 31st International Conference on Neural Information Processing Systems (NIPS 2017). by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser and Illia Polosukhin
-* Below is a diagram of the Transformer architecture:
-![Transformer Architecture](
-https://machinelearningmastery.com/wp-content/uploads/2021/08/attention_research_1.png
-)
-* Sebastian Ratchka sums it well [here](https://www.linkedin.com/posts/sebastianraschka_ai-llm-transformers-activity-7074387165543092224-tlX-?utm_source=share&utm_medium=member_desktop)
+# Natural Language Processing — a personal diary
 
+This repository is a personal collection of experiments, notes, and working code related to natural language processing. It is a living research and engineering log: notebooks, short scripts, and exploratory projects are kept here as records of ideas, failures, and progress.
 
-****************
-Fave paper so far:
-***************
-## [Are Emergent Abilities of Large Language Models a Mirage?](https://arxiv.org/abs/2304.15004)
-*  This paper presents a compelling case that purported emergent abilities in LLMs are highly dependent on the metrics employed, challenging the community to reassess the foundational understanding of how LLMs evolve with scale.
+I aim for clarity and reproducibility in my own work; this repo is not a packaged library or a curated tutorial collection. Read items as first drafts, experiments, and thought-traces.
 
-****************
-First favourites in research*****************
-1. [Exploiting Novel GPT-4 APIs](https://arxiv.org/abs/2312.14302)
+Relevant personal profile and work are available at: [ashioyajotham.github.io](https://ashioyajotham.github.io/)
 
-2. [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/pdf/2306.02707)
-* _Can large language models (LLMs) train themselves?_
-Credits: [Cameron Wolfe](https://cameronrwolfe.substack.com/p/orca-properly-imitating-proprietary) found through this [twitter thread](https://twitter.com/cwolferesearch/status/1673398297304911872)
+## What this repository contains
 
-**************************
-### Research focus
-1) Alignment
-- [A closer look at RLHF](https://twitter.com/cwolferesearch/status/1724486576992886985)
-2) AI Safety (particularly interested in red-teaming)
-3) "Hallucination" problem
-  - [Lately I have been thinking about the intersection between imagination and "hallucinations" in humans and machines respectively](https://ashioyajotham.substack.com/p/hallucinations-in-large-language)
-4) Interpretability
+- `Conversational AI/` — chatbots and dialogue experiments (Rasa, OpenAI-based prototypes, action servers).
+- `Creative AI/` — multimodal and generative experiments (MusicGen examples, creative pipelines).
+- `Natural Language Generation (NLG)/` — generation-focused scripts and notebooks.
+- `Natural Language Understanding (NLU)/` — classifiers, summarizers, sentiment analyses, and related notebooks.
 
+Within each folder you'll typically find interactive notebooks used during exploration and a few supporting scripts for repeatable runs. Not every experiment is production-ready; many are intentionally minimal so results are easy to reproduce locally.
 
+## Intent and norms
+
+- This is my personal research archive and experiment log. Content reflects experiments I ran, notes I took, and small utilities I wrote while exploring problems in NLP and AI alignment.
+- Not a collaboration space: I am not accepting external contributions or pull requests. If you want to follow my public work, use the links on my personal site.
+- Expect incomplete dependencies and ad-hoc notebooks. When I formalize an experiment I'll add a small README in that folder with environment notes and reproducibility hints.
+
+## Opinionated notes — short-term directions and principles
+
+These items capture where I expect the code and my experiments to head next. They are intentionally opinionated and meant to guide future work in the repo.
+
+- On-device SLMs (small language models) as a priority: focus on privacy-preserving, latency-sensitive workloads. Practical work here will emphasize quantization, sparse or low-rank adaptation, and lightweight runtimes rather than scaling up model size.
+- Reproducibility by design: prefer experiments that can be re-run with a deterministic seed, a small pinned environment, and a short script that reproduces the core result.
+- Interpretability and alignment tools are core research interests — experiments that shed light on model reasoning, source attribution, or hallucination modes will get prominence.
+- Keep the codebase lean: notebooks for discovery, small scripts for reproduction, and a single canonical runner per experiment. Avoid large dependency trees where possible.
+
+## Codebase conventions (how I organise things)
+
+- Each experiment/folder should include a short `README.md` describing: purpose, minimal steps to reproduce, and the Python version used.
+- If an experiment is intended to be repeatable, include a `requirements.txt` or a pinned `pyproject.toml` inside that folder.
+- Prefer small datasets or subsampled fixtures for the repo; full-scale datasets are tracked externally and referenced with notes about provenance.
+
+## How to use this repo
+
+1. Inspect notebooks for conceptual notes and exploratory code.
+2. Look for an experiment-level `README.md` for reproducibility details.
+3. Use a virtual environment (Python 3.10+) and pin dependencies locally when you run anything here.
+
+## Notes on data and privacy
+
+Some experiments rely on third-party datasets or APIs. Check each folder's notes for provenance and licensing. Be mindful of privacy and do not assume all artifacts are safe for redistribution.
+
+---
+
+If you'd like a specific folder or experiment documented, point me to it and I'll add a short reproducibility note for that item. This repository is my working journal; it will continue to change as experiments evolve.
